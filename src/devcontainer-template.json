@@ -1,0 +1,83 @@
+{
+  "id": "elixir-phoenix-postgres",
+  "version": "1.1.0",
+  "name": "Elixir, Phoenix, Node.js & PostgresSQL",
+  "description": "Develop Elixir/Phoenix based applications. Includes everything you need to get up and running.",
+  "documentationURL": "https://github.com/microsoft/vscode-dev-containers/tree/main/containers/elixir-phoenix-postgres",
+  "publisher": "Community",
+  "licenseURL": "https://github.com/microsoft/vscode-dev-containers/blob/main/LICENSE",
+  "options": {
+    "elixirVersion": {
+      "type": "string",
+      "description": "Elixir version:",
+      "proposals": [
+        "1.11.0",
+        "1.11.1",
+        "1.11.2",
+        "1.11.3",
+        "1.11.4",
+        "1.12.0",
+        "1.12.1",
+        "1.12.2",
+        "1.12.3",
+        "1.13.0",
+        "1.13.1",
+        "1.13.2",
+        "1.13.3",
+        "1.13.4",
+        "1.14.0",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "latest"
+      ],
+      "default": "latest"
+    },
+    "phoenixVersion": {
+      "type": "string",
+      "description": "Phoenix version:",
+      "proposals": [
+        "1.7.2"
+      ],
+      "default": "1.7.2"
+    },
+    "nodeVersion": {
+      "type": "string",
+      "description": "Node.js version:",
+      "proposals": [
+        "none",
+        "lts",
+        "latest",
+        "18",
+        "20"
+      ],
+      "default": "none"
+    },
+    "postgresVersion": {
+      "type": "string",
+      "description": "PostgreSQL version:",
+      "proposals": [
+        "latest",
+        "14.0",
+        "14.1",
+        "14.2",
+        "14.3",
+        "14.4",
+        "14.5",
+        "14.6",
+        "14.7",
+        "14.8",
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3"
+      ],
+      "default": "latest"
+    }
+  },
+  "platforms": [
+    "Elixir",
+    "Postgres DB"
+  ]
+}
